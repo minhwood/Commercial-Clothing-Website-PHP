@@ -1,0 +1,607 @@
+@import '../css/bootstrap.min.css';
+
+.header_container {
+    position: fixed;
+    z-index: 900;
+    top: 0;
+    left: 0;
+    width: 100%;
+    transition-duration: 500ms;
+}
+
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.navigation-bar{
+    background-color: #ffffff;
+}
+
+.nav-1 {
+    padding-top:30px;
+}
+
+.nav-brand img {
+    width: 150px;
+    padding: 10px;
+}
+
+.search-area {
+    position: fixed;
+    display: none;
+    background-color:#f8f9fa;
+    top:0;
+    height: 100px;
+}
+
+
+.search-area form input {
+    border:none;
+    border-bottom: 2px solid #787878;
+    background-color:#f8f9fa;
+    margin-top: 20px;
+    width:100%;
+    padding: 5px 20px 5px 20px;
+    height: 60px;
+    font-size:14px;
+    transition-duration:600ms;
+}
+
+.search-area img {
+    width: 20px;
+    height:20px;
+    display: inline-block;
+    margin-top:40px;
+}
+
+.navbar-icon {
+    width: 35px;
+    height: 35px;
+    margin-right:10px;
+    padding:5px;
+    display: inline-block;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.product-grid {
+    margin: 0px;
+    width: 100%;
+}
+
+.body-content {
+    padding-top: 100px;
+    min-height: 750px !important;
+}
+
+footer {
+    background-color: #21251E;
+    margin-top: 35px;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+footer a {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+}
+
+footer input {
+    border:none;
+    background-color:  #ffffff;
+    color: #787878;
+    font-size:14px;
+    width: 50%;
+    height:33px;
+    transition-duration:500ms;
+}
+
+footer button {
+    border: none;
+    height: 35px;
+    width:10%;
+    background-color: #787878;
+}
+
+/* account box  */
+
+.account-div {
+    position: fixed;
+    right:32px;
+    top: 78px;
+    visibility: hidden;
+    text-align: center;
+    z-index: 900;
+    width: 20%;
+    min-width: 250px;
+    background-color: #ffffff;
+    height: 250px;
+    border: 2px solid #787878;
+}
+
+.account-div-el {
+    margin-top: 35px;
+}
+
+.profile-but {
+    width:80%;
+    border:none;
+    background-color:#4CAF70;
+    padding:10px;
+    color:#ebebeb;
+}
+
+.profile-but:hover{
+    background-color: #006400;
+}
+
+.sign-out-but {
+    border:none;
+    background-color: #dc0345;
+    color: #ebebeb;
+}
+
+.sign-out-but:hover {
+    background-color: #8b8b8b;
+}
+
+
+
+.login-box-input{
+    padding: 4px 10px 4px 10px;
+    border: 1px solid #787878;
+    display:block;
+    margin:auto;
+    margin-top: 25px;
+}
+
+.login-box-button {
+    display: block;
+    margin: auto;
+    color: #ffffff;
+    padding: 5px 25px 5px 25px;
+    border: none;
+    background-color: #0315ff;
+    margin-top: 25px;
+    margin-bottom:25px;
+}
+
+.login-box-button:hover {
+    background-color: #4CAF70;
+}
+
+.join-us-a{
+    text-decoration: underline;
+}
+
+.bg-img {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    height:230px;
+    opacity: 0.9;
+    display: inline-block;
+}
+
+.bg-img:hover a {
+    color:black !important;
+}
+
+.category-content {
+    text-decoration: none;
+    font-weight: bold;
+    vertical-align: middle;
+    position: absolute;
+}
+
+.category-content a {
+    margin:auto;
+    text-decoration: none;
+    color: #21251E !important;
+    font-size: 35px;
+}
+
+ /* offerslide show */
+.slideshow {
+    margin-bottom:40px;
+}
+
+ .slides {
+    width: 100%;
+    display: none;
+}
+
+/* contact Us */
+.form-title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+
+/* About Us */
+.info-extends-title {
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+.info-dialog ul li{
+    list-style: circle !important;
+}
+
+.about-box{
+    margin-bottom: 20px;
+}
+
+/* Product List */
+
+.product-img img {
+    width:100%;
+    height: 100%;
+}
+
+.product-description h6 {
+    color: black;
+    font-size: 13px;
+    margin-top:10px;
+    height: 28px;
+}
+
+.product-description a {
+    text-decoration: none !important;
+}
+
+.product-description h6:hover {
+    color: #0315ff;
+}
+
+.single-product-wrapper{
+    margin-bottom: 25px;
+}
+
+.filter-box {
+    background-color: #787878;
+    color:#ffffff;
+    margin-bottom: 20px;
+    padding: 10px 10px 10px 10px;
+    border: 1px solid #21251E;
+}
+
+.filter-box form {
+    width: 100%;
+}
+
+.custom-select-box {
+    display: inline-block;
+}
+
+.custom-select-box select {
+    display: block;
+    width: 150px;
+}
+
+.custom-select-box input {
+    display: block;
+    width: 100%;
+}
+
+/* Product detail[] */
+.product-detail-image {
+    width: 100%;
+}
+
+h3 {
+    margin: auto;
+}
+
+.description-box {
+    position: relative;
+}
+
+.description-box p {
+    line-height: 1.5;
+}
+
+.description-box-in {
+    position: relative;
+    padding-top: 20%;
+    height:100%;
+}
+
+.add-to-cart-button {
+    border:none;
+    background-color:#4CAF70;
+    width:60%;
+    height:60px;
+    font-size: 20px;
+    color: #ebebeb;
+    position: absolute;
+    bottom: 0;
+}
+
+
+.add-to-cart-button:hover {
+    background-color:#006400;
+    cursor: pointer;
+}
+
+.product-name {
+    font-size:20px;
+    color: #21251E;
+    line-height: 25px !important;
+    font-weight: bold;
+}
+.brand-tag {
+    font-size:15px;
+    font-weight: bold;
+    color:#787878;
+    text-transform: uppercase;
+}
+.price-tag {
+    font-size: 20px;
+    color: #dc0345;
+    font-weight: bolder;
+}
+
+.description-content {
+    color:#21251E;
+    max-height:100px;
+}
+
+
+/* Cart */
+.item-container {
+    border: 2px solid #787878;
+    padding: 10px;
+    margin-bottom:20px;
+    box-shadow: 2px 2px 2px 2px #787878;
+}
+
+.checkout-button {
+    width:100%;
+    border:none !important;
+    background-color:#4CAF70;
+    color:#ebebeb;
+    padding:10px;
+    margin-top:20px;
+}
+
+.checkout-button:hover {
+    background-color: #006400;
+}
+
+.item-name {
+    margin-top:40px;
+}
+
+.total-amount {
+    margin-top:40px;
+    text-align: right;
+}
+
+.item-description {
+    margin-top:40px;
+}
+
+.remove-button {
+    width: 20%;
+    border:none !important;
+    background-color:#dc0345;
+    color:#ebebeb;
+    padding:3px;
+    margin-top:20px;
+}
+
+.remove-button a {
+    text-decoration: none !important;
+    color:#ebebeb !important;
+}
+
+.remove-button a:hover{
+    text-decoration: none !important;
+    color:#ebebeb !important;
+}
+
+.remove-button:hover {
+    background-color:#8b0000;
+}
+
+/* Registration box */
+
+.registration-box{
+    border: 2px solid #787878;
+    box-shadow: 2px 2px 2px 2px #787878;
+    padding:10px;
+}
+
+.registration-box h3 {
+    margin-bottom:20px;
+    text-align: center;
+}
+
+.registration-box h5 {
+    text-align: center;
+}
+
+
+.accept-policy {
+    margin-top: 20px;
+}
+
+.join-button {
+    width: 20%;
+    border:none !important;
+    background-color:#4CAF70;
+    color:#ebebeb;
+    padding:10px;
+}
+
+.join-button:hover {
+    background-color:#006400;
+}
+
+/* Checkout */
+.confirm-payment-button {
+    width: 80%;
+    border:none !important;
+    background-color:#4CAF70;
+    color:#ebebeb;
+    padding:10px;
+    margin-bottom:30px;
+}
+
+/* Customer Account */
+.account-navigation h3 {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.account-container {
+}
+
+.account-navigation {
+    height: 100%;
+}
+
+.account-navigation-item {
+    border-bottom: 2px solid #787878;
+    padding: 10px 20px 10px 20px;
+}
+
+.account-navigation-item:hover {
+    background-color: #ebebeb;
+    cursor: pointer;
+}
+
+.nav-item-active{
+    background-color: #ebebeb;
+    border-left: 3px solid #4CAF70;
+}
+
+.account-info-dialog h3 {
+    border: 2px solid #787878;
+    padding: 10px;
+}
+
+.sign-out-item {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Account Details */
+.account-info-content{
+    padding:20px;
+}
+ 
+.payment-method-info {
+    margin-top: 40px;
+}
+
+.payment-method-info h4 {
+    margin-bottom: 20px;
+}
+
+.account-details-content h4 {
+    margin-bottom: 20px;
+}
+
+.edit-button {
+    border:none;
+    width:100%;
+    color:#ebebeb;
+    background-color:#4CAF70;
+}
+
+.edit-button:hover {
+    background-color: #006400;
+}
+
+.account-details-content-edit .row {
+    margin-bottom: 15px;
+}
+
+.confirm-edit-button {
+    width:100%;
+    color:#ebebeb;
+    border:none;
+    padding:5px;
+    margin-top:20px;
+    background-color:#4CAF70;
+}
+
+.confirm-edit-button:hover {
+    background-color: #006400;
+}
+
+.cancel-edit-button {
+    width:100%;
+    color:#ebebeb;
+    border:none;
+    padding:5px;
+    margin-top:20px;
+    background-color:#dc0345;
+}
+
+.cancel-edit-button:hover {
+    background-color: #8b0000;
+}
+
+/* Account Order */
+
+.order-item {
+    border: 2px solid #787878;
+    margin-top:20px;
+    padding:10px;
+}
+
+.small-product-img img{
+    height: 100px;
+}
+
+.track-order-button {
+    margin-top: 30px;
+    width: 100%;
+    border:none;
+    background-color:#4CAF70;
+    padding: 5px;
+    color: #ebebeb;
+}
+
+.track-order-button:hover {
+    background-color:#006400;
+}
+
+/* Account Inventory */
+
+.inventory-item {
+    margin-top:20px;
+    padding:10px;
+}
+
+.inventory-item:hover {
+    background-color:#ebebeb;
+    cursor: pointer;
+}
+
+.inventory-item img {
+    height: 150px;
+}
+
+/* Account sell product */
+
+.account-sell-item-content {
+    margin-top:20px;
+    padding:10px;
+}
+
+.import-button {
+    width:100%;
+    padding:5px;
+    border:none;
+    cursor: pointer;
+}
+
+.import-button:hover {
+    background-color:#787878;
+}
