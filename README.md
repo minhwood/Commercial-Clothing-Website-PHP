@@ -1,7 +1,7 @@
 # Commercial-Clothing-Website-PHP
 Simple commercial clothing website, have basic shopping feature, created using PHP
 
-###### Link to wensite : http://saturn.csit.rmit.edu.au/inte2047/Hunters/Final/home.php
+###### Link to wensite : http://titan.csit.rmit.edu.au/~s3608452/Commercial-Clothing-Website-PHP/home.php
 
 Demo :
 
